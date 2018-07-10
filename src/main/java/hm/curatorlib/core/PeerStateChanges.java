@@ -1,4 +1,4 @@
-package tr.com.argela.sebu.hm.curatorlib.core;
+package hm.curatorlib.core;
 
 import java.util.List;
 
