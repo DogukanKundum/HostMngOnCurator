@@ -12,7 +12,7 @@ import org.apache.curator.framework.recipes.leader.LeaderSelectorListenerAdapter
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import tr.com.argela.sebu.hm.curatorlib.core.LeaderJob;
+import hm.curatorlib.core.LeaderJob;
 
 public class LeaderElector extends LeaderSelectorListenerAdapter implements Closeable {
 
