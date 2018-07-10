@@ -10,11 +10,11 @@ import org.apache.curator.test.TestingServer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import tr.com.argela.sebu.hm.curatorlib.cluster.ClusterMembers;
-import tr.com.argela.sebu.hm.curatorlib.core.ClientConnector;
-import tr.com.argela.sebu.hm.curatorlib.core.LeaderJob;
-import tr.com.argela.sebu.hm.curatorlib.core.PeerStateChanges;
-import tr.com.argela.sebu.hm.curatorlib.leader.LeaderElector;
+import hm.curatorlib.cluster.ClusterMembers;
+import hm.curatorlib.core.ClientConnector;
+import hm.curatorlib.core.LeaderJob;
+import hm.curatorlib.core.PeerStateChanges;
+import hm.curatorlib.leader.LeaderElector;
 
 /**
  * to be able to receive host state changes we need to implement PeerStateChanges
