@@ -1,4 +1,4 @@
-package tr.com.argela.sebu.hm.curatorlib.cluster;
+package hm.curatorlib.cluster;
 
 import java.io.Closeable;
 import java.io.IOException;
