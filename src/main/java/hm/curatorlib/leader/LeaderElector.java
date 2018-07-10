@@ -1,4 +1,4 @@
-package tr.com.argela.sebu.hm.curatorlib.leader;
+package hm.curatorlib.leader;
 
 import java.io.Closeable;
 import java.io.IOException;
