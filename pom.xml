@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>tr.com.argela.sebu.hm.hm.curator</groupId>
+	<groupId>hm.hm.curator</groupId>
 	<artifactId>hmoncurator</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
@@ -90,16 +90,4 @@
 
 		</plugins>
 	</build>
-	<distributionManagement>
-		<repository>
-			<id>deployment</id>
-			<name>Internal Releases</name>
-			<url>http://192.168.0.182:8081/nexus/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>deployment</id>
-			<name>Internal Releases</name>
-			<url>http://192.168.0.182:8081/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
