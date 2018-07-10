@@ -1,4 +1,4 @@
-package tr.com.argela.sebu.hm.curatorlib.core;
+package hm.curatorlib.core;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
