@@ -1,4 +1,4 @@
-package tr.com.argela.sebu.hm.curatorlib;
+package hm.curatorlib;
 
 import java.io.IOException;
 import java.util.ArrayList;
