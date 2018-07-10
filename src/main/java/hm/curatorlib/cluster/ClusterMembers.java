@@ -18,7 +18,7 @@ import org.apache.curator.framework.recipes.nodes.GroupMember;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import tr.com.argela.sebu.hm.curatorlib.core.PeerStateChanges;
+import hm.curatorlib.core.PeerStateChanges;
 
 public class ClusterMembers implements Closeable {
 
